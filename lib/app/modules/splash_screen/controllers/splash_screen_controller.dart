@@ -1,20 +1,28 @@
+import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
 class SplashScreenController extends GetxController {
   //TODO: Implement SplashScreenController
+    late PageController pageController ; 
+    var pageIndex = 0.obs;
+    
 
-  final count = 0.obs;
   @override
   void onInit() {
+    pageController= PageController(initialPage: 0);
+
     super.onInit();
   }
 
   @override
   void onReady() {
+
     super.onReady();
   }
 
   @override
-  void onClose() {}
-  void increment() => count.value++;
+  void onClose() {
+    pageController.dispose();
+     
+  }
 }
