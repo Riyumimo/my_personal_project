@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1020966300814",
+    "firebase_url": "https://get-cli-aff2c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "get-cli-aff2c",
+    "storage_bucket": "get-cli-aff2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020966300814:android:262b779f2abab60b7e6ddf",
+        "android_client_info": {
+          "package_name": "com.example.my_personal_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020966300814-59sgb1fp01fs13788anroh4dk16899lo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNO9xVe-wEIegCdlqJfyAauvJ_Q_cIhtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020966300814-59sgb1fp01fs13788anroh4dk16899lo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
