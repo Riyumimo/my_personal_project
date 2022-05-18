@@ -45,7 +45,7 @@ class SplashScreenView extends GetView<SplashScreenController> {
                     child: ElevatedButton(
                       onPressed: () {
                         if (controller.pageIndex.value == 2) {
-                           Get.offAllNamed(Routes.HOME);
+                           Get.offAllNamed(Routes.LOGIN_PAGE);
                         }else{
 
                         controller.pageController.nextPage(
